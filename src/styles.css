@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 780px;
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+}
+app-login,
+app-home,
+app-projects,
+app-users,
+app-about
+ {
+    width: 100%;
+}
+app-login {
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background: #000000ad;
+}
